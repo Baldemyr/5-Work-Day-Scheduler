@@ -40,4 +40,4 @@ https://github.com/Baldemyr/5-Work-Day-Scheduler.git
 
 
 Sample Image
-https://github.com/Baldemyr/5-Work-Day-Scheduler/assets/Work_Day_Scheduler.png
+https://github.com/Baldemyr/5-Work-Day-Scheduler/blob/1cd14fcf1aad127be1c752df1a5c1801f5a6668d/Assets/Work_Day_Scheduler.png
