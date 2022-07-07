@@ -22,17 +22,19 @@ $(document).ready(function () {// tells engine to load 1)html & 2)css first.
     $("#hour15 .description").val(localStorage.getItem("hour15"));
     $("#hour16 .description").val(localStorage.getItem("hour16"));
     $("#hour17 .description").val(localStorage.getItem("hour17"));
+    $("#hour18 .description").val(localStorage.getItem("hour18"));
+    $("#hour19 .description").val(localStorage.getItem("hour19"));
 
     function hourTracker() {
         //get current number of hours.
-        var currentHour = moment().hour(); // use of moment.js
+        var currentHour = moment().hour(); // using moment.js
 
         // loop over time blocks
         $(".time-block").each(function () {
             var blockHour = parseInt($(this).attr("id").split("hour")[1]);
             console.log( blockHour, currentHour)
 
-            //check if we've moved past this time, click into css/html given classes of past, present, or future
+            //check if we've moved past listed time, click into css/html given classes of past, present, or future
             if (blockHour < currentHour) {
                 $(this).addClass("past");
                 $(this).removeClass("future");
@@ -50,5 +52,5 @@ $(document).ready(function () {// tells engine to load 1)html & 2)css first.
             }
         })
     }
-    hourTracker(); //re-run function
+    hourTracker(); //Run function again
 })
