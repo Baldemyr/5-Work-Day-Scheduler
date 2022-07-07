@@ -33,7 +33,7 @@ WHEN I refresh the page
 THEN the saved events persist
 
 Deployed Link
-https://baldemyr.github.io/4-Web-API-Code-Quiz/
+https://baldemyr.github.io/5-Work-Day-Scheduler/
 
 GIT Repository
 https://github.com/Baldemyr/5-Work-Day-Scheduler.git
